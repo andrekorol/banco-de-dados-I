@@ -2,15 +2,14 @@ DROP TABLE IF EXISTS Aluno;
 -- Tabela Aluno(idAluno, rg, dataNascimento, dataMatricula, cpf)
 CREATE TABLE Aluno(
   idAluno int NOT NULL AUTO_INCREMENT,
-  nome varchar(255) NOT NULL,
   -- e.g rg = '40.429.226-6'
-  rg varchar(17) NOT NULL,
+  rg varchar(12) NOT NULL,
   -- YYYY-MM-DD
   dataNascimento DATE NOT NULL,
   dataMatricula DATE,
   -- contando '.'s e '-'
   -- ver: 'https://pt.stackoverflow.com/questions/121593/quantidade-de-caracteres-do-cpf-cnpj-e-rg'
-  cpf varchar(14) NOT NULL,
+  cpf varchar(17) NOT NULL,
   PRIMARY KEY (idAluno)
 );
 DROP TABLE IF EXISTS Cliente;
@@ -18,16 +17,14 @@ DROP TABLE IF EXISTS Cliente;
 CREATE TABLE Cliente(
   idCliente int NOT NULL AUTO_INCREMENT,
   nome varchar(255) NOT NULL,
-  rg varchar(17) NOT NULL,
-  cpf varchar(14) NOT NULL,
+  rg varchar(12) NOT NULL,
+  cpf varchar(17) NOT NULL,
   salario float(53),
   nomeMae varchar(255),
   nomePai varchar(255),
   email varchar(255),
   -- salvando apenas um hash da senha no banco de dados
-  -- neste exemplo, por simplicidade, sera salvo um Buffer contendo
-  -- o codigo ASCII dos caracteres das senhas geradas aleatoriamente
-  senha binary(15),
+  senha binary(64),
   PRIMARY KEY (idCliente)
 );
 DROP TABLE IF EXISTS Anamnese;
