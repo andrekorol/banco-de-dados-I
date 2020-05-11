@@ -71,10 +71,8 @@ VALUES
     "2016-05-04",
     "856.134.270-62"
   );
-<<<<<<< HEAD
--- Insere 10 registros na tabela Cliente
-=======
->>>>>>> 9dff872597382eb828512bd551f22dd5010b4532
+< < < < < < < HEAD -- Insere 10 registros na tabela Cliente
+  == == == = > > > > > > > 9dff872597382eb828512bd551f22dd5010b4532
 INSERT INTO Cliente (
     nome,
     rg,
@@ -185,7 +183,6 @@ VALUES
     "Talita Carvalho Neto",
     "Morgana.Nogueira81@live.com",
     "fLKK7j6PEkVAWY2"
-<<<<<<< HEAD
   );
 -- Insere 10 registros na tabela Anamnese
 INSERT INTO Anamnese (
@@ -342,6 +339,4 @@ VALUES
     "Ígor Souza",
     "Tosse seca",
     "In quos ducimus laboriosam quidem enim saepe impedit sunt."
-=======
->>>>>>> 9dff872597382eb828512bd551f22dd5010b4532
   );
