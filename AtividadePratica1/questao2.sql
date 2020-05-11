@@ -71,8 +71,7 @@ VALUES
     "2016-05-04",
     "856.134.270-62"
   );
-< < < < < < < HEAD -- Insere 10 registros na tabela Cliente
-  == == == = > > > > > > > 9dff872597382eb828512bd551f22dd5010b4532
+-- Insere 10 registros na tabela Cliente
 INSERT INTO Cliente (
     nome,
     rg,
