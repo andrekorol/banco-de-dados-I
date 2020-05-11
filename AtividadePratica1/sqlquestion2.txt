@@ -1,0 +1,19 @@
+Selecione todos os alunos que tem o nome igual a Maria.
+
+Selecione todos os Pacientes que procuraram atendimento médico por conta de gripes.
+
+Selecione todos os pacientes pardos e negros.
+
+Selecione todos os pacientes que são engenheiros da computação.
+
+Selecione todos os pacientes que são engenheiras e engenheiros da computação.
+
+Selecione todos os pacientes que são engenheiros ou engenheiras e moram na avenida José Longo.
+
+Selecione todos os clientes que ganham até um salário mínimo.
+
+Selecione todos os clientes que ganham entre 1200$ e 3000$.
+
+Selecione os cientes que ganham menos de 1200$ e mais que 3000$
+
+Selecione todos os alunos que fizeram matrícula em 2007
