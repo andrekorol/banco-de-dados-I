@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "faker": "^4.1.0",
-    "moment": "^2.25.3",
+    "moment": "^2.29.4",
     "node-cpf": "^1.0.21",
     "python-shell": "^2.0.0"
   }
